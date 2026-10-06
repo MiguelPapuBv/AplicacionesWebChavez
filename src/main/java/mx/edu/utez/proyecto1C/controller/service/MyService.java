@@ -1,9 +1,9 @@
-package mx.edu.utez.proyecto1C.controller.dto;
+package mx.edu.utez.proyecto1C.controller.service;
 
-import mx.edu.utez.cotizacion.controller.dto.RequestEnvioDTO;
-import mx.edu.utez.cotizacion.controller.dto.RequestHospedajeDTO;
-import mx.edu.utez.cotizacion.controller.dto.RequestRentaDTO;
-import mx.edu.utez.cotizacion.controller.exception.ReglaNegocioException;
+import mx.edu.utez.proyecto1C.controller.dto.RequestEnvioDTO;
+import mx.edu.utez.proyecto1C.controller.dto.RequestHospedajeDTO;
+import mx.edu.utez.proyecto1C.controller.dto.RequestRentaDTO;
+import mx.edu.utez.proyecto1C.controller.exception.ReglaNegocioException;
 import org.springframework.stereotype.Service;
 
 @Service

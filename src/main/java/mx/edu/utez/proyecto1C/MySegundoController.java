@@ -1,10 +1,10 @@
-package mx.edu.utez.proyecto1C.controller.dto;
+package mx.edu.utez.proyecto1C;
 
 import jakarta.validation.Valid;
-import mx.edu.utez.cotizacion.controller.dto.RequestEnvioDTO;
-import mx.edu.utez.cotizacion.controller.dto.RequestHospedajeDTO;
-import mx.edu.utez.cotizacion.controller.dto.RequestRentaDTO;
-import mx.edu.utez.cotizacion.controller.service.MyService;
+import mx.edu.utez.proyecto1C.controller.dto.RequestEnvioDTO;
+import mx.edu.utez.proyecto1C.controller.dto.RequestHospedajeDTO;
+import mx.edu.utez.proyecto1C.controller.dto.RequestRentaDTO;
+import mx.edu.utez.proyecto1C.controller.service.MyService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,12 +18,12 @@ import java.util.Map;
 @RestController
 @CrossOrigin({"*"})
 @RequestMapping({"/cotizacion"})
-public class MyController {
+public class MySegundoController {
 
 
 
     private final MyService service;
-    public MyController(MyService service) {
+    public MySegundoController(MyService service) {
         this.service = service;
     }
 

@@ -1,5 +1,6 @@
-package mx.edu.utez.proyecto1C.controller.dto;
+package mx.edu.utez.proyecto1C.controller.exception;
 
+import mx.edu.utez.proyecto1C.controller.exception.ReglaNegocioException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
