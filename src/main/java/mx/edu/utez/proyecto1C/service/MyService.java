@@ -1,4 +1,4 @@
-package mx.edu.utez.proyecto1C.controller.service;
+package mx.edu.utez.proyecto1C.service;
 
 import mx.edu.utez.proyecto1C.controller.dto.RequestEnvioDTO;
 import mx.edu.utez.proyecto1C.controller.dto.RequestHospedajeDTO;

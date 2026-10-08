@@ -1,4 +1,4 @@
-package mx.edu.utez.proyecto1C.controller.model.cursos;
+package mx.edu.utez.proyecto1C.model.cursos;
 
 
 

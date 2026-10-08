@@ -1,8 +1,8 @@
-package mx.edu.utez.proyecto1C.controller.model.direcciones;
+package mx.edu.utez.proyecto1C.model.direcciones;
 
 import jakarta.persistence.*;
 import lombok.*;
-import mx.edu.utez.proyecto1C.controller.model.persona.Persona;
+import mx.edu.utez.proyecto1C.model.persona.Persona;
 
 @Entity
 @Table(name = "direcciones")

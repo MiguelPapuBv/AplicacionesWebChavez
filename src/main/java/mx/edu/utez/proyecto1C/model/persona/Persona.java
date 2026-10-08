@@ -1,4 +1,4 @@
-package mx.edu.utez.proyecto1C.controller.model.persona;
+package mx.edu.utez.proyecto1C.model.persona;
 
 
 import jakarta.persistence.*;
@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import mx.edu.utez.proyecto1C.controller.model.cursos.Curso;
+import mx.edu.utez.proyecto1C.model.cursos.Curso;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.JoinColumn;

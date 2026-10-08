@@ -1,4 +1,4 @@
-package mx.edu.utez.proyecto1C.controller.model.usuario;
+package mx.edu.utez.proyecto1C.model.usuario;
 
 public enum Roles {
     ADMIN,

@@ -4,7 +4,7 @@ import jakarta.validation.Valid;
 import mx.edu.utez.proyecto1C.controller.dto.RequestEnvioDTO;
 import mx.edu.utez.proyecto1C.controller.dto.RequestHospedajeDTO;
 import mx.edu.utez.proyecto1C.controller.dto.RequestRentaDTO;
-import mx.edu.utez.proyecto1C.controller.service.MyService;
+import mx.edu.utez.proyecto1C.service.MyService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
