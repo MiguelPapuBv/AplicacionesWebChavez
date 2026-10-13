@@ -1,52 +1,47 @@
 package mx.edu.utez.proyecto1C.model.persona;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import mx.edu.utez.proyecto1C.model.cursos.Curso;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.JoinColumn;
 
-
-import java.util.Date;
+import java.sql.Date;
 import java.util.List;
 
 
 @Entity
-@Table(name = "Personas")
+@Table(name="personas")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Persona {
-
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private int id;
 
     private String nombres;
-    private String primerA;
-    private String SegundoA;
-
-
-    private Date fecha;
-    private String Correo;
-    private String Curp;
+    private String primerApellido;
+    private String segundoApellido;
 
 
 
+    private Date fechaNacimiento;
 
+    private String email;
+    private String curp;
+
+    /*
     @ManyToMany
     @JoinTable(
-            name = "persona_cursos",
-            joinColumns = @JoinColumn(name = "persona_id"),
-            inverseJoinColumns = @JoinColumn(name = "curso_id")
+            name="personas_cursos",
+            joinColumns = @JoinColumn(name="pesona_id"),
+            inverseJoinColumns = @JoinColumn(name="cusos_id")
     )
     private List<Curso> cursos;
+*/
+
 
 }

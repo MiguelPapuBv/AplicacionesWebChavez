@@ -3,32 +3,27 @@ package mx.edu.utez.proyecto1C.model.cursos;
 
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
+
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
-@Table(name = "cursos")
 @Entity
+@Table(name="cursos")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Curso {
 
-
-    @
-            Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
-
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private long id;
 
     private String nombre;
+    private int noUnidades;
 
 
 }
